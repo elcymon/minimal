@@ -1,6 +1,27 @@
-title: Minimal theme
+title: John Doe
+author: John Doe
+email: your-email@domain.com
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+description:
+  I am a -----
+    <br>
+    <br>
+  Short Description of my experience
+  <br>
+  <br>
+  <p class="view">
+    <a href="{{ site.linkedin }}">
+      View My LinkedIn Profile
+    </a>
+  </p>
+  <p class="view">
+    <a href="{{ site.github-url }}">
+      View My GitHub Profile
+    </a>
+  </p>
+
+show_downloads: false
+
 google_analytics:
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal-elcymon
+show_excerpts: true
